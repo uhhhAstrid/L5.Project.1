@@ -1,0 +1,49 @@
+if bump send the player back
+
+2 colors
+
+list of card object (random, numbers)
+
+
+
+
+effects:
+
+move forward
+move backward 
+
+split effect (2 peices)
+
+draw again (12)
+
+switch 1 peice with opponent
+
+sorry card (switch with opponent's piece you chose and sends them back to the start)
+
+
+
+how to play a turn of sorry:
+
+draw a card
+
+use it
+
+then discarded
+
+if no cards left shuffle the cards and put them back out
+
+
+how to set up board:
+
+discard in the middle aloong with draw card
+
+safe zone for each colors
+
+start position for each color
+
+8 tiles to move down a side.
+
+
+Victory:
+
+once all of your four pieces are in the safe zone
