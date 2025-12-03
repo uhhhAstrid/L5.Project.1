@@ -1,0 +1,6 @@
+This is a list of information
+Every row of the file is a new piece of data for the game
+By changing what each line is, we can change how the game works
+For example, each line could be the name of an enemy
+Or, each line could be the stats for one enemy, with a different file for each enemy
+Or, each line could be the name of a location in an adventure game
