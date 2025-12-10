@@ -46,6 +46,16 @@ class Card():
         self.effect = move and skipturn 
 
 
+class boardspace():
+    SafeZone = False
+    tiletotal = 32
+    tilenum = 0
+    if tilenum == 32:
+        SafeZone = True
+
+
+
+
 class Piece():
     def __init__(self, color, position):
         self.color = color
