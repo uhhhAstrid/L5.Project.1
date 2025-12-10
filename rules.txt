@@ -5,8 +5,6 @@ if bump send the player back
 list of card object (random, numbers)
 
 
-
-
 effects:
 
 move forward
