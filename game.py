@@ -1,11 +1,12 @@
-import random, Cards, PieceRed, PieceBlue
+import random, game_classes
 #import board setup
 turn = 1 
 piece = 0
 
-def shuffle(card_list):
+def shuffle(effect):
     #recreate card_list based on card info
-    random.shuffle(card_list)
+    random.shuffle(discard_pile)
+    discard_pile = []
 
 def draw_card(card_list, piece):
     if card_list != []:
