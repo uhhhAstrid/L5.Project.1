@@ -5,6 +5,10 @@ class Card():
         self.number = number
         self.effect = effect
 
+    def effects(self, move):
+        if effect = 0:
+            
+
     def card1classfunction(self):
         self.number = 1
         self.effect = move
