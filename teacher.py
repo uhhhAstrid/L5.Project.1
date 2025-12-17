@@ -8,6 +8,7 @@ class ExampleClass():
         self.date = date
         self.time = time
 
+
     # This is called a "Getter" function. 
         # It "gets" the information of one of the class variables
         # Then returns it to whatever called the function

@@ -8,6 +8,10 @@ class Card():
         self.card_list = []
 
 
+    def effects(self, move):
+        if effect = 0:
+            
+
     def card1classfunction(self):
         self.number = 1
         self.effect = move
