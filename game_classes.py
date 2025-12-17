@@ -39,25 +39,6 @@ class Card():
             skipaturn()
 
 
-            
-    def card1classfunction(self):
-        pass
-
-        
-    def card3classfunction(self):
-        self.number = -3
-        self.effect = move
-
-    def card7classfunction(self):
-        self.number = 7
-        self.effect = move or splitbetweenpieces
-
-    
-    def card12classfunction(self):
-        self.number = 12
-        self.effect = move and skipturn 
-
-
 class Piece():
     def __init__(self, color, position):
         self.color = color
