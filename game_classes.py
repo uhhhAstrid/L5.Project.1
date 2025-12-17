@@ -1,67 +1,61 @@
 # this file will store all of the classes for the game
 # of course, this will also include all class functions and variables
-class Card():
+from shutil import move
 
+
+class Card():
     def __init__(self, number, effect):
         self.number = number
         self.effect = effect
-        self.card_list = []
 
 
     def effects(self, move):
-        if effect = 0:
+        if self.number == 1:
+            move(1)
+        if self.number == 2:
+            move(-2)
+        if self.number == 3:
+            move(-3)
+        if self.number == 4:
+            move(4)
+        if self.number == 5:
+            move(5)
+        if self.number == 6:
+            move(6)
+        if self.number == 7:
+            #calling button for asking split between pieces or move 7
+            pass
+        if self.number == 8:
+            move(8)
+        if self.number == 9:
+            move(9)
+        if self.number == 10:
+            #call button for split between peices or move 7
+            pass
+        if self.number == 11:
+            move(11)
+        if self.number == 12:
+            move(12)
+            skipaturn()
+
+
             
-
     def card1classfunction(self):
-        self.number = 1
-        self.effect = move
-        self.card_list.append(self)
-    
-    def card2classfunction(self):
-        self.number = -2
-        self.effect = move
-        self.card_list.append(self)
-    
+        pass
 
+        
     def card3classfunction(self):
         self.number = -3
         self.effect = move
-        self.card_list.append(self)
-    
-    def card4classfunction(self):
-        self.number = 4
-        self.effect = move
-        self.card_list.append(self)
-
-    def card5classfunction(self):
-        self.number = 5
-        self.effect = move
-        self.card_list.append(self)
 
     def card7classfunction(self):
         self.number = 7
         self.effect = move or splitbetweenpieces
-        self.card_list.append(self)
-    
-    def card8classfunction(self):
-        self.number = 8
-        self.effect = move
-        self.card_list.append(self)
-    
-    def card10classfunction(self):
-        self.number = 10
-        self.effect = move and movedifcard1spaceback
-        self.card_list.append(self)
-    
-    def card11classfunction(self):  
-        self.number = 11
-        self.effect = move
-        self.card_list.append(self)
+
     
     def card12classfunction(self):
         self.number = 12
         self.effect = move and skipturn 
-        self.card_list.append(self)
 
 
 class Piece():

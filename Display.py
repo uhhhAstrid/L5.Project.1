@@ -1,4 +1,6 @@
 from tkinter import *
+import game_classes 
+
 
 window = Tk()
 window.title("Sorry")
@@ -12,5 +14,8 @@ text_label_cards = Label(window, text = ("draw"))
 
 def clicked():
     Drawing_cards = Button( text = "Click me to draw a new card" ,fg = "red", command=clicked)
+
+command=game.shuffle()
+
 
 window.mainloop()
